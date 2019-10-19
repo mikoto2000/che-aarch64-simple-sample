@@ -38,5 +38,8 @@ https://che.openshift.io/f?url=https://gist.githubusercontent.com/mikoto2000/7a5
     2. 開いたターミナルで `cd simple-sample; make debug`
        - なぜか `n` -> `Ctrl+c` で `SIGINT` を発生させないとハングアップする...
        - `n` -> `Ctrl+c` した後はいつも通りの gdb 操作ができる
-       
-       
+
+## スタック構築に使用した Docker イメージ
+
+- https://hub.docker.com/r/mikoto2000/che-gcc-aarch64-linux-gnu
+- https://hub.docker.com/r/mikoto2000/che-qemu-xilinx
