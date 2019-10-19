@@ -12,13 +12,13 @@
 
 使用する devfile は以下。
 
-https://gist.githubusercontent.com/mikoto2000/7a58e2130ec17b2cca17d9aee4257b73/raw/8ad6bcf8e92c26946283a9e9ed0dd485e1f2583a/che-aarch64-simple-sample.yaml
+https://gist.githubusercontent.com/mikoto2000/7a58e2130ec17b2cca17d9aee4257b73/raw/7bb067a8998e90fb4b9cacf861477d33280182ce/che-aarch64-simple-sample.yaml
 
 ### `che.openshift.io` にワークスペースを作成する
 
 `che.openshift.io` へログインした後、以下の URL に接続する。
 
-https://che.openshift.io/f?url=https://gist.githubusercontent.com/mikoto2000/7a58e2130ec17b2cca17d9aee4257b73/raw/8ad6bcf8e92c26946283a9e9ed0dd485e1f2583a/che-aarch64-simple-sample.yaml
+https://che.openshift.io/f?url=https://gist.githubusercontent.com/mikoto2000/7a58e2130ec17b2cca17d9aee4257b73/raw/7bb067a8998e90fb4b9cacf861477d33280182ce/che-aarch64-simple-sample.yaml
 
 `url=xxx` で指定した `xxx` を devfile として読み込んで、 `che.openshift.io` 上に環境を構築してくれる。
 (`che.openshift.io` のサーバーから見える場所に置く必要がある)
