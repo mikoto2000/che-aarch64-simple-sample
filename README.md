@@ -2,6 +2,10 @@
 
 `che.openshift.io` 上に `aarch64-linux-gnu` と `Xilinx/qemu` の環境を構築します。
 
+## 事前準備
+
+`che.openshift.io` へのユーザー登録をしていない場合には、[Registering to Hosted Che](https://www.eclipse.org/che/docs/che-7/hosted-che/#registering-to-hosted-che_hosted-che) を参照してユーザー登録を行う。
+
 ## 体験手順
 
 `che.openshift.io` の、外から devfile を差し込む機能を使って、カスタムワークスペースを構築する。
